@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration 
+		  PUBLIC "-//mybatis.org//DTD config 3.0//EN"
+	      "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="logImpl" value="LOG4J"/>
+		<!-- 通过配置mapUnderscoreToCamelCase为true，mybatis会自动将数据库字段名带下划线的转换为java实体驼峰 -->
+		<!-- <setting name="mapUnderscoreToCamelCase" value="true"/> -->
+		<!-- 本属性默认为true，会导致所有XML中设置的懒加载不生效，故要使用懒加载必须设置为false -->
+		<setting name="aggressiveLazyLoading" value="false"/>
+	</settings>
+</configuration>
