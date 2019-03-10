@@ -12,7 +12,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 import tk.mybatis.web.model.SysDict;
 import tk.mybatis.web.service.DictService;
-
+/**
+ * 字典控制器
+ * @author Administrator
+ *
+ */
 @Controller
 @RequestMapping(value="/dicts")
 public class DictController {
